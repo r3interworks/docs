@@ -50,6 +50,15 @@ footer {
 	font-size: 105%;
 }
 
+.rst-content li > *:not(.first).admonition {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.rst-content li > img:not(.first) {
+	margin-bottom: 12px;
+}
+
 .wy-nav-content {
 	padding-top: 6em;
 }
